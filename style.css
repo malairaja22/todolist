@@ -1,0 +1,73 @@
+.top {
+    background-color: #DAECE6;
+}
+
+h1 {
+    color: #438875;
+}
+
+input {
+    width: 60%;
+    height: 2.5rem;
+    border: 0.2rem solid;
+    border-radius: 0.3rem;
+    color: #438875;
+    font-weight: 500;
+}
+
+.top {
+    padding: 0.7rem;
+    border: 0.1rem solid #438875;
+    box-shadow: 0.1rem 0.1rem 0.5rem #438875;
+}
+
+.button1 {
+    height: 2.5rem;
+    width: 5rem;
+    border: 0.2rem solid #438875;
+    border-radius: 0.3rem;
+    background-color: #08B6BE;
+    color: #DAECE6;
+    font-weight: 700;
+}
+
+input:focus {
+    outline: none;
+}
+
+li {
+    width: 90%;
+    background-color: #DAECE6;
+    padding: 1rem;
+    border: 0.2rem solid #438875;
+    margin: 2rem 0 0 1rem;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem #438875;
+    color: #438875;
+    font-weight: 600;
+
+}
+
+.button2 {
+    width: 2rem;
+    border: 0.2rem solid #438875;
+    border-radius: 0.3rem;
+    float: right;
+    margin: 0 1rem 1rem 0;
+    background-color: #08B6BE;
+}
+
+body {
+    background-color: #08B6BE;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width: 480px) {
+    span {
+        display: none;
+    }
+}
